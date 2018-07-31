@@ -1,9 +1,15 @@
 <?php
 
-//pegar id da sessão
-session_start();
+//$date = "2018-07-30T18:31:02.6334579+00:00";
+//echo date('Ymd H:i:s', strtotime($date));
 
-echo session_name();
+
+//echo date_format($date, 'Y-m-d H:i:s.u T');
+
+
+//session_start();
+
+//echo session_name();
 
 
 /**
