@@ -3,15 +3,13 @@ require_once('utils/Capcha.php');
 require_once('utils/Save.php');
 //$sav = new Save('mysql:dbname=loginphp', 'root', '');
 $pdo = new PDO('mysql:dbname=loginphp', 'root', '');
-// $passHash = md5($_POST['pass']);
+// $passHash = password_hash($_POST['pass'], PASSWORD_BCRYPT);
 // $insert = "INSERT INTO users VALUES (NULL, ? , ?)";
 // $stmt = $pdo->prepare($insert);
 
-// $stmt->execute([$_POST['username'], $passHash]);
+//  $stmt->execute([$_POST['username'], $passHash]);
+//  exit;
 
-
-
-// exit;
 
 $cath = new Capcha();
 if ($cath->resultSession($_POST['captch'])) {

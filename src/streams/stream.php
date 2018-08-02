@@ -2,7 +2,7 @@
 //enviar post do php e pegar retorno
 $postData = http_build_query([
   'nome' => 'João Paulo',
-  'empresa' => 'Microsoft'
+  'empresa' => 'Cognizant'
 ]);
 
 $options = [
