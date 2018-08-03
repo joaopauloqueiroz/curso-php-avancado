@@ -1,0 +1,5 @@
+{
+    "require": {
+        "h4cc/wkhtmltoimage-amd64": "0.12.x"
+    }
+}

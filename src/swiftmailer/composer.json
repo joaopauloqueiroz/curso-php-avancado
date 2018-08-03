@@ -1,0 +1,6 @@
+{
+  "name": "Email-swift",
+  "require": {
+    "swiftmailer/swiftmailer" : "v6.1.2"
+  }
+}

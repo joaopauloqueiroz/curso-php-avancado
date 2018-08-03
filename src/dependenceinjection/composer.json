@@ -1,0 +1,6 @@
+{
+  "name" : "Dependence Injection",
+  "require": {
+    "pimple/pimple": "~3.0"
+  }
+}
